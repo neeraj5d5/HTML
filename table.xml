@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timetable [
+<!ELEMENT timetable (monday,tuesday,wednesday,thursday,friday,saturday)>
+<!ELEMENT monday (period1,period2,period3,period4)>
+<!ELEMENT tuesday (period1,period2,period3,period4)>
+<!ELEMENT wednesday (period1,period2,period3,period4)>
+<!ELEMENT thursday (period1,period2,period3,period4)>
+<!ELEMENT friday (period1,period2,period3,period4)>
+<!ELEMENT saturday (period1,period2,period3,period4)>
+<!ELEMENT period1 (#PCDATA)>
+<!ELEMENT period2 (#PCDATA)>
+<!ELEMENT period3 (#PCDATA)>
+<!ELEMENT period4 (#PCDATA)>
+]>
+<timetable>
+    <monday>
+        <period1>ads</period1>
+        <period2>cs</period2>
+        <period3>cd</period3>
+        <period4>m1</period4>
+    </monday>
+    <tuesday>
+        <period1>ads</period1>
+        <period2>m1</period2>
+        <period3>wt</period3>
+        <period4>cs</period4>
+    </tuesday>
+    <wednesday>
+        <period1>cc</period1>
+        <period2>mc</period2>
+        <period3>english</period3>
+        <period4>cs</period4>
+    </wednesday>
+    <thursday>
+        <period1>wt</period1>
+        <period2>cc</period2>
+        <period3>m1</period3>
+        <period4>m1</period4>
+    </thursday>
+    <friday>
+        <period1>m1</period1>
+        <period2>ads</period2>
+        <period3>mc</period3>
+        <period4>cc</period4>
+    </friday>
+    <saturday>
+        <period1>cc</period1>
+        <period2>cs</period2>
+        <period3>wt</period3>
+        <period4>m1</period4>
+    </saturday>
+    
+</timetable>

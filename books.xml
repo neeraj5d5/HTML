@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books [
+<!ELEMENT books (year+)>
+<!ELEMENT year (semister+)>
+<!ELEMENT semister (book+)>
+<!ELEMENT book (name?,edition?,bookrelease?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT bookrelease (#PCDATA)>
+]>
+<books>
+    <year>
+        <semister>
+            <book>
+                <name>Compiler Design</name>
+                <edition>2nd</edition>
+                <bookrelease> 1999 </bookrelease>
+            </book>
+            <book>
+                <name>Unix programming</name>
+                <edition>2nd</edition>
+                <bookrelease> 1999 </bookrelease>
+            </book>
+            <book> 
+                <name> OOAD </name>
+                <edition>2nd</edition>
+                <bookrelease> 1999 </bookrelease>
+            </book>
+            <book>
+                <name> DMBS </name>
+                <edition>2nd</edition>
+                <bookrelease>2011 </bookrelease>
+            </book>
+            <book>
+                <name> PEHV </name>
+                <edition>3rd</edition>
+                <bookrelease>2011 </bookrelease>
+            </book>
+        </semister>
+        <semister>
+            <book>
+                <name>Computer Networks</name>
+                <edition>4th</edition>
+                <bookrelease>2011 </bookrelease>
+            </book>
+            <book>
+                <name> DWM </name>
+               <edition>5th</edition>
+                <bookrelease>2011 </bookrelease>
+            </book>
+            <book> 
+                <name> DAA </name>
+               <edition>6th</edition>
+                <bookrelease>2011 </bookrelease>
+            </book>
+            <book>
+                <name> STM </name>
+               <edition>4th</edition>
+                <bookrelease> 2011</bookrelease>
+            </book>
+            <book>
+                <name> Cyber Security </name>
+                <edition>8th</edition>
+                <bookrelease> 2011</bookrelease>
+            </book>
+        </semister>
+    </year>
+</books>

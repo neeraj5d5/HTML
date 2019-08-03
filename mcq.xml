@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mcqs [
+<!ELEMENT mcqs (questions+)>
+<!ELEMENT questions (question,option+)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
+]>
+<mcqs>
+    <questions>
+        <question>which colour do you like </question>
+        <option> Black </option>
+        <option> Blue </option>
+        <option> White </option>
+        <option> Pink </option>
+    </questions>
+    <questions>
+        <question> Which country has recently imposed Carbon Tax?</question>
+        <option> South Africa </option>
+        <option> Pakistan </option>
+        <option> Nepal </option>
+        <option> Bangladesh </option>
+    </questions>
+    <questions>
+        <question>Who has been appointed as Britain's Home Secretary, recently?  </question>
+        <option> Andrea Leadsom </option>
+        <option> Penny Mordaunt </option>
+        <option> Priti Patel </option>
+        <option>  Liz Truss </option>
+    </questions>
+    <questions>
+        <question>How many world heritage sites are there in India? </question>
+        <option> 30 </option>
+        <option> 36 </option>
+        <option> 7 </option>
+        <option> 60 </option>
+    </questions>
+    <questions>
+        <question>The capital of Madagascar is_____</question>
+        <option> Antananarivo </option>
+        <option> Port Louis </option>
+        <option> Pretoria</option>
+        <option> George Town </option>
+    </questions>
+    <questions>
+        <question> Who has been appointed as the Joint Secretary to President Ram Nath Kovind?</question>
+        <option>  24th July </option>
+        <option> 23rd July </option>
+        <option> 21st July  </option>
+        <option> 25th July </option>
+    </questions>
+    <questions>
+        <question>Which country will host the 45th
+         G7 summit 2019? </question>
+        <option> France </option>
+        <option> germany </option>
+        <option> italy </option>
+        <option> japan </option>
+    </questions>
+    <questions>
+        <question>The capital of Ethiopia is</question>
+        <option>  Addis Ababa </option>
+        <option> kiran </option>
+        <option> kumar </option>
+        <option> krishna </option>
+    </questions>
+    <questions>
+        <question> Which of the following personalities from India is the only winner 
+        of Special Oscar in the history of Indian Cinema so far? </question>
+        <option> Satyajit Ray </option>
+        <option> ravi </option>
+        <option> venu </option>
+        <option> gopal </option>
+    </questions>
+    <questions>
+        <question> Who wrote Arthashastra? </question>
+        <option> Chanakya </option>
+        <option> kavitha </option>
+        <option> kaveri </option>
+        <option> kalapana </option>
+    </questions>
+</mcqs>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marks [
+<!ELEMENT marks (year+)>
+<!ELEMENT year (sem+)>
+<!ELEMENT sem (name,college,branch,midmarks,lab,cgpa)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT midmarks (sub+)>
+<!ELEMENT sub (#PCDATA)>
+<!ELEMENT lab (internal,external)>
+<!ELEMENT internal (#PCDATA)>
+<!ELEMENT external (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+]>
+<marks>
+    <year>
+        <sem>
+            <name>varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>65</sub>
+                <sub>45</sub>
+                <sub>54</sub>
+                <sub>45</sub>
+                <sub>45</sub>
+            </midmarks>
+            <lab>
+                <internal> 45 </internal>
+                <external> 45 </external>
+            </lab>
+            <cgpa> 7 </cgpa>
+        </sem>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>45</sub>
+                <sub>34</sub>
+                <sub>65</sub>
+                <sub>56</sub>
+                <sub>56</sub>
+            </midmarks>
+            <lab>
+                <internal> 30 </internal>
+                <external> 30 </external>
+            </lab>
+            <cgpa> 7 </cgpa>
+        </sem>
+    </year>
+    <year>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>20</sub>
+                <sub>25</sub>
+                <sub>25</sub>
+                <sub>20</sub>
+                <sub>20</sub>
+            </midmarks>
+            <lab>
+                <internal> 30 </internal>
+                <external> 20 </external>
+            </lab>
+            <cgpa> 6 </cgpa>
+        </sem>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>20</sub>
+                <sub>30</sub>
+                <sub>30</sub>
+                <sub>25</sub>
+                <sub>25</sub>
+            </midmarks>
+            <lab>
+                <internal> 25 </internal>
+                <external> 25 </external>
+            </lab>
+            <cgpa> 7 </cgpa>
+        </sem>
+    </year>
+    <year>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>20</sub>
+                <sub>30</sub>
+                <sub>15</sub>
+                <sub>30</sub>
+                <sub>30</sub>
+            </midmarks>
+            <lab>
+                <internal> 30 </internal>
+                <external> 25 </external>
+            </lab>
+            <cgpa> 5 </cgpa>
+        </sem>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>20</sub>
+                <sub>30</sub>
+                <sub>30</sub>
+                <sub>30</sub>
+                <sub>15</sub>
+            </midmarks>
+            <lab>
+                <internal> 25 </internal>
+                <external> 25 </external>
+            </lab>
+            <cgpa> 7 </cgpa>
+        </sem>
+    </year>
+    <year>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>35</sub>
+                <sub>35</sub>
+                <sub>75</sub>
+                <sub>55</sub>
+                <sub>55</sub>
+            </midmarks>
+            <lab>
+                <internal> 68 </internal>
+                <external> 26 </external>
+            </lab>
+            <cgpa> 5 </cgpa>
+        </sem>
+        <sem>
+            <name>Varma</name>
+            <college>SASI</college>
+            <branch>CSE</branch>
+            <midmarks>
+                <sub>50</sub>
+                <sub>20</sub>
+                <sub>65</sub>
+                <sub>65</sub>
+                <sub>65</sub>
+            </midmarks>
+            <lab>
+                <internal> 30 </internal>
+                <external> 15 </external>
+            </lab>
+            <cgpa> 7 </cgpa>
+        </sem>
+    </year>
+</marks>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <year1>
+        <student>
+            <name>ram</name>
+            <age>19</age>
+            <halltickekno>17K61a0574</halltickekno>
+        </student>
+        <student>
+            <name>ramo</name>
+            <age>19</age>
+            <halltickekno>17K61a0565</halltickekno>
+        </student>
+        <student>
+            <name>ram</name>
+            <age>19</age>
+            <halltickekno>17K61a0545</halltickekno>
+        </student>
+        <student>
+            <name>ram</name>
+            <age>19</age>
+            <halltickekno>17K61a05754</halltickekno>
+        </student>
+    </year1>
+    <year2>
+        <student>
+            <name>var</name>
+            <age>20</age>
+            <halltickekno>16K61a0574</halltickekno>
+        </student>
+        <student>
+            <name>ramo</name>
+            <age>20</age>
+            <halltickekno>16K61a0565</halltickekno>
+        </student>
+        <student>
+            <name>ream</name>
+            <age>20</age>
+            <halltickekno>16K61a0545</halltickekno>
+        </student>
+        <student>
+            <name>rgdfam</name>
+            <age>20</age>
+            <halltickekno>16K61a05754</halltickekno>
+        </student>
+    </year2>
+
+</students>

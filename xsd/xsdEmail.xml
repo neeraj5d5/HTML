@@ -1,0 +1,38 @@
+<email xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="email.xsd">
+    <client>
+        <from>neeraj@gmail.com</from>
+        <to>neeraj@gmail.com</to>
+        <subject>Images</subject>
+        <body> This are  the nice images </body>
+        <attachment>image1</attachment>
+    </client>
+    <client>
+        <from>neeraj62@gmail.com</from>
+        <to>neeraj561@gmail.com</to>
+        <subject>Images</subject>
+         <body> hThis are  the nice images </body>
+        <attachment>image2</attachment>
+    </client>
+    <client>
+        <from>neeraj555@gmail.com</from>
+        <to>neeraj5712@gmail.com</to>
+        <subject>Images</subject>
+         <body> This are  the nice images </body>
+        <attachment>image3</attachment>
+    </client>
+    <client>
+        <from>neeraj6677@gmail.com</from>
+        <to>neeraj5719@gmail.com</to>
+        <subject>Images</subject>
+         <body> hThis are  the nice images </body>
+        <attachment>image4</attachment>
+    </client>
+    <client>
+        <from>neeraj@gmail.com</from>
+        <to>neeraj5741@gmail.com</to>
+        <subject>Images</subject>
+         <body> This are  the nice images </body>
+        <attachment>image5</attachment>
+    </client>
+</email>

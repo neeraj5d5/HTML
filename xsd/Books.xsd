@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="books" type="xs:string">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="year" type="xs:string">
+                <xs:complexType>
+                <xs:attribute name="type" type="xs:string" use="required"/>
+                    <xs:sequence>
+                        <xs:element name="semister" type="xs:string">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="book" type="xs:string">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                 <xs:element name="name" type="xs:string"/>
+                                                 <xs:element name="edition" type="xs:string"/>
+                                                 <xs:element name="bookrelease" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="email" type="xs:string">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="client" type="xs:string">
+                <xs:complexType>
+                <xs:attribute name="type" type="xs:string" use="required"/>
+                    <xs:sequence>
+                        <xs:element name="from" type="xs:string" />
+                        <xs:element name="to" type="xs:string" />
+                        <xs:element name="subject" type="xs:string" />
+                        <xs:element name="body" type="xs:string" />
+                        <xs:element name="attachment" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
